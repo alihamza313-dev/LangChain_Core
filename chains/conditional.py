@@ -63,3 +63,5 @@ final = chain | conditionalTasks
 result = final.invoke({'feedback' : 'This is terrible mobile phone'})
 
 print (result)
+
+final.get_graph().print_ascii() #This is for the visual representation
