@@ -4,8 +4,16 @@ Length Based Text Splitting:
 Text Structure based splitting:
     this splitting try to split the text firstly on the basis of paragraphs then sentences then words and charcters so that the context will not be effected.
 
+
+Document Structure Splitting:
+    This type is the extended version of the Text Structure Splitting the difference is that in this we use some extra separators while use the same algorithm recursive text splitting but we have to explicitly tell which type of language or text we provided here This mostly used for coding based text like code snippets
+
     Seperators:
-        for paragraph : \n\n
-        for sentence : \n
-        for words : '_'
-        for charcters : '' 
+    "\n\n",           # Paragraphs
+    "\n",             # Lines
+    ". ",             # Sentences
+    " ",              # Words
+    ""                # Characters (fallback)
+
+Semantic Maening based Text Splitting:
+    In this we make chunks not on the basis of length, sentences, or words etx but on the basis of similarity or relationship between one sentence and into another means if there is a paragraph and in which first two lines tell about the same issue or same topic while in other lines the topic is different then this text splitter check the contexual meaning and then split that text where relation between text is minimum and make chunks.In short here we want that each chunk to contain a coherent idea. 

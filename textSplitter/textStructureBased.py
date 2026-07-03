@@ -9,4 +9,5 @@ splitter = RecursiveCharacterTextSplitter(
 )
 
 chunks = splitter.split_text(text)
+print(len(chunks))
 print(chunks[1])
