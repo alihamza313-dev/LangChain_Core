@@ -1,0 +1,11 @@
+EmployeeID,Name,Department,JobTitle,Salary,City,JoiningDate,Email
+1001,Ali Khan,Engineering,Software Engineer,85000,Lahore,2022-01-15,ali.khan@example.com
+1002,Sara Ahmed,Marketing,Marketing Specialist,65000,Karachi,2021-09-10,sara.ahmed@example.com
+1003,Usman Tariq,Human Resources,HR Manager,78000,Islamabad,2020-06-22,usman.tariq@example.com
+1004,Ayesha Malik,Finance,Accountant,72000,Faisalabad,2023-02-01,ayesha.malik@example.com
+1005,Hassan Raza,Engineering,Data Scientist,98000,Rawalpindi,2021-11-18,hassan.raza@example.com
+1006,Zainab Noor,Sales,Sales Executive,60000,Multan,2022-08-05,zainab.noor@example.com
+1007,Bilal Sheikh,IT,System Administrator,75000,Peshawar,2019-12-12,bilal.sheikh@example.com
+1008,Mariam Iqbal,Customer Support,Support Specialist,55000,Sialkot,2023-04-14,mariam.iqbal@example.com
+1009,Ahmed Farooq,Engineering,Backend Developer,90000,Gujranwala,2020-10-30,ahmed.farooq@example.com
+1010,Fatima Zahra,Operations,Operations Manager,88000,Hyderabad,2018-07-19,fatima.zahra@example.com

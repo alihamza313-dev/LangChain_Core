@@ -1,0 +1,11 @@
+Length Based Text Splitting:
+    In this we split or divide larger text into a multiple chunks of specifc length e.g 100 words in a single chunks
+
+Text Structure based splitting:
+    this splitting try to split the text firstly on the basis of paragraphs then sentences then words and charcters so that the context will not be effected.
+
+    Seperators:
+        for paragraph : \n\n
+        for sentence : \n
+        for words : '_'
+        for charcters : '' 
